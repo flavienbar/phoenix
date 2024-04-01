@@ -1,0 +1,14 @@
+DATA:
+  raw: /home/giujorge/Documents/Projets/phoenix/data/raw
+  external: /media/giujorge/Stockage/DATA/external
+  interim: /media/giujorge/Stockage/DATA/interim
+  processed: /media/giujorge/Stockage/DATA/processed
+SOURCES:
+  binance:
+    BTCUSDT: /media/giujorge/Stockage/DATA/binance/spot/daily/trades/BTCUSDT
+    url: https://data.binance.vision/data/spot
+LOCAL:
+    duration: daily
+    market_data: trades
+    symbol: BTCUSDT
+TEST: /media/giujorge/Stockage/DATA/test

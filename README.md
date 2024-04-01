@@ -5,6 +5,16 @@ Trading systems
 **$ conda activate phoenix**
 
 
+
+## Data Ingestion
+- run the notebook to download the zip files from URLs
+## Data Preparation
+- run the notebook to transform the zip files to parquet file
+## Strategies
+## Backtesting
+
+
+
 Project Organization
 ------------
 
