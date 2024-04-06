@@ -1,0 +1,4 @@
+# Database Tasks (data_prepartion): 
+    - update function to create database with interval with new data
+    - Calculate percentage of the 1% bigger transactions
+    - Update database_timeframe: checking missing dates(partitions), proces and add to the database
