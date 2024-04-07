@@ -1,18 +1,53 @@
-# Phoenix
-Trading systems
+# Phoenix Trading Systems
 
-## To activate this environment, use                                             
-**$ conda activate phoenix**
+## Introduction
+
+Phoenix Trading Systems is a comprehensive platform designed for analyzing and backtesting financial trading strategies. This README provides an overview of the project structure, dataset information, usage guidelines, and data preparation instructions.
+
+## Environment Setup
+
+To activate the Phoenix environment, use the following command: `$ conda activate phoenix`
 
 
+## Reference
 
-## Data Ingestion
-- run the notebook to download the zip files from URLs
-## Data Preparation
-- run the notebook to transform the zip files to parquet file
-## Strategies
-## Backtesting
+The `config_notebook.yaml` file contains configurations such as the path to the data.
 
+## Data Processing
+
+### Data Ingestion
+
+Run the notebook to download the zip files from specified URLs.
+
+### Data Preparation
+
+Run the notebook to transform the zip files into Parquet files for efficient storage and processing.
+
+## Dataset Information
+
+The dataset consists of financial data organized in time intervals. Each record includes the following fields:
+
+- **timestamp**: Timestamp representing the time interval.
+- **open**: Opening price within the time interval.
+- **close**: Closing price within the time interval.
+- **high**: Highest price observed within the time interval.
+- **low**: Lowest price observed within the time interval.
+- **volume**: Volume transacted within the time interval.
+- **price**: Averaged price calculated as the ratio of volume to quote quantity within the time interval.
+- **quoteQty**: Price Volume-weighted average price within the time interval.
+- **transactions_count**: Number of transactions exchanged within the time interval.
+- **max_quoteQty_sum**: Largest transaction exchanged within the time interval.
+- **percentage_of_biggest_transaction**: Percentage of the largest transaction relative to the total quote quantity within the time interval.
+- **zipname**: Integer representing the partition identifier.
+
+## Usage
+
+The dataset provides valuable insights into financial trading activities within defined time intervals. It can be utilized for various analytical purposes, including:
+
+- Analyzing price trends and patterns over time.
+- Studying trading volume and liquidity within specific intervals.
+- Identifying significant transactions and their impact on the market.
+- Monitoring transaction counts and patterns to detect anomalies.
 
 
 Project Organization

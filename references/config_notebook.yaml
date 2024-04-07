@@ -12,3 +12,7 @@ LOCAL:
     market_data: trades
     symbol: BTCUSDT
 TEST: /media/giujorge/Stockage/DATA/test
+DATABASE:
+  BTCUSDT:
+    1sec: /media/giujorge/Stockage/DATA/external/BTCUSDT_1_second.parquet
+    1min: /media/giujorge/Stockage/DATA/external/BTCUSDT_1_minute.parquet
