@@ -1,4 +1,15 @@
+# read.me: explain the proces ingestion raw -> external -> processed
 # Database Tasks (data_prepartion): 
-    - update function to create database with interval with new data
     - Calculate percentage of the 1% bigger transactions
     - Update database_timeframe: checking missing dates(partitions), proces and add to the database
+    - schema : nullable = False
+# ML:
+    - timeseriescv package for cross-validation
+# portfolio management: 
+    - have a look at new Alpha factor theory : 
+        -- Blockchain analytics:  Transaction Monitoring, Address Clustering, Market Analysis,  Token Analysis, Regulatory Compliance 
+        -- Network analysis: Node Analysis,Consensus Mechanism Analysis, Community Analysis, Sybil Attack Detection, Network Security:
+         Decentralized finance (DeFi) metrics, Tokenomics analysis,Machine learning and AI 
+         --> https://github.com/CeyxTrading/NVT-Alpha-Factor/blob/main/README.md
+         --> https://github.com/purvasingh96/AI-for-Trading
+         --> https://medium.com/@chocolatesuit/best-crypto-data-analysis-site-for-on-chain-data-analytics-ffc962bd0dc1
